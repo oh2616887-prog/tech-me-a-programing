@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>html</title>
+</head>
+
+<body>
+  <header>
+  <img height="50" width="50" src="logo.png" alt="logo" />
+  <nav class="nav">
+    <li><a href="index.html">home</a></li>
+    <li><a href="css.html">CSS</a></li>
+    <li><a href="about.html">about me</a></li>
+  </nav>
+</header>
+<hr />
+<br />
+<br />
+<section class="sec1">
+  <h1>هل انت جاهز لتعلم لغة html</h1>
+</section>
+<br />
+<br />
+<section class="sec2">
+  <h1>اساسيات</h1>
+  <hr />
+  <br />
+  <br />
+  &lt;!DOCTYPE html&gt;
+  <br />
+  &lt;html&gt;
+  <br />
+  &lt;head&gt;
+  <p>خصائص الصفحة</p>
+  &lt;/head&gt;
+  <br />
+  &lt;title&gt;
+  <p>عنوان الموقع</p>
+  &lt;/title&gt;
+  <br />
+  &lt;body&gt;
+  <p>المحتوى المراي للصفحة</p>
+  &lt;/body&gt;
+  <br />
+  &lt;/html&gt;
+</section>
+<br />
+<br />
+<section class="sec3">
+  <br>
+  <h2>ما هو ال DOCTYPE html!</h2>
+  <p> يقوم بتعريف نوع الملف </p>
+</section>
+<br />
+<section class="sec3">
+  <br>
+  <h2>ما هو ال head </h2>
+  <p>يقوم المطور بكتابة خصائص الصفحة في ال head</p>
+</section>
+<br>
+<section class="sec3">
+  <br>
+  <h2>ما هو ال title </h2>
+  <p>هو عنوان الموقع الي بيظهر للمستخدم</p>
+</section>
+<br>
+<section class="sec3">
+  <br>
+  <h2>ما هو ال body</h2>
+  <p>هو المحتوى الي بيظهر للمستخدم</p>
+</section>
+<br />
+<br />
+<section class="sec4">
+  <h3>جاري التطوير و اضافة محتوى...</h3>
+</section>
+
+
+
+
+
+
+<style>
+  @keyframes appear{
+    from{
+      opacity: 0;
+      scale: 0.5;
+      transform: translateX(-100px);
+    }
+    
+    to{
+      opacity: 1;
+      scale: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  
+  .sec3, .sec2{
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+  }
+  
+  .sec3:active{
+    animation: none;
+    user-select: none;
+  }
+  
+</style>
+
+</body>
+
+</html>
